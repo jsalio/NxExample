@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@Capure/lib/core": ["lib/core/src/index.ts"],
+      "@Capure/lib/models": ["lib/model/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
